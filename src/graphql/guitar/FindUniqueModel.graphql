@@ -1,0 +1,24 @@
+query FindUniqueModel($brandId: ID!, $modelId: ID!) {
+  findUniqueModel(brandId: $brandId, modelId: $modelId) {
+    id
+    name
+    price
+    type
+    description
+    image
+    musicians {
+      name
+      bands
+      musicianImage
+    }
+    specs {
+      bodyWood
+      bridge
+      fingerboardWood
+      neckWood
+      pickups
+      scaleLength
+      tuners
+    }
+  }
+}

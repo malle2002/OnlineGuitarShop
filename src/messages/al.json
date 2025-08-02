@@ -1,0 +1,36 @@
+{
+  "TabTilte": {
+    "home": "Home"
+  },
+  "HomePage": {
+    "header1_1": "Shfletoni cilësinë e lartë",
+    "header1_2": "Kitarat",
+    "header1_3": "online",
+    "subheader1": "Eksploroni mbi 50 mijë koleksione më të fundit të kitarave të markës në internet me VibeStrings.",
+    "header2_1": "Duke shfaqur ",
+    "header2_2": "Markat më të mira",
+    "subheader2": "Zgjidhni markën tuaj të preferuar dhe eksploroni koleksionin tonë të hollë.",
+    "header3_1": "Pse të provoni",
+    "header3_2": "VibeStrings?",
+    "benefit1": "SHfletim i qetë",
+    "benefit2": "DORËZIM I LEHTË",
+    "benefit3": "PAGESA SWIFT",
+    "header4_1": "Shfletoni dhe blini tuajin ",
+    "header4_2": "kitarat e preferuara ",
+    "header4_3": "me VibeStrings.",
+    "google_playstore": "NXIJENI",
+    "apple_appstore": "Shkarkoni në"
+  },
+  "BrandPage": {
+    "header1_1": "Luaj si një ",
+    "header1_2": "Ylli i rrokut",
+    "subheader1_1": "Me një trashëgimi që daton në vitet 1950, Ibanez ndërthur mjeshtërinë e ekspertëve me inovacionin më të fundit për të ofruar kitara që frymëzojnë kreativitetin dhe lartësojnë performancën tuaj. Të besuara nga artistët më të mirë në mbarë botën, kitarat Ibanez janë ndërtuar për të luajtur shpejt, tingëlluar me guxim dhe për t'u dalluar në çdo skenë.",
+    "subheader1_2": "Pyet ChatGPT",
+    "header2_1": "Shikoni ",
+    "header2_2": "Përzgjedhja"
+  },
+  "GuitarPage": {
+    "Tab1": "Specifikimi",
+    "Tab2": "Kush e luan?"
+  }
+}

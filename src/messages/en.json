@@ -1,0 +1,36 @@
+{
+  "TabTitles": {
+    "home": "Home"
+  },
+  "HomePage": {
+    "header1_1": "Browse top quality",
+    "header1_2": "Guitars",
+    "header1_3": "online",
+    "subheader1": "Explore 50k+ latest collections of branded guitars online with VibeStrings.",
+    "header2_1": "Featuring the ",
+    "header2_2": "Best Brands",
+    "subheader2": "Select your preferred brand and explore our exquisite collection.",
+    "header3_1": "Why try",
+    "header3_2": "VibeStrings?",
+    "benefit1": "SMOOTH BROWSING",
+    "benefit2": "EASY DELIVERY",
+    "benefit3": "SWIFT PAYMENTS",
+    "header4_1": "Browse and buy your ",
+    "header4_2": "favorite guitars ",
+    "header4_3": "with VibeStrings.",
+    "google_playstore": "GET IT ON",
+    "apple_appstore": "Download on the"
+  },
+  "BrandPage": {
+    "header1_1": "Play like a ",
+    "header1_2": "Rock star",
+    "subheader1_1": "With a legacy dating back to the 1950s, Ibanez blends expert craftsmanship with cutting-edge innovation to deliver guitars that inspire creativity and elevate your performance. Trusted by top artists worldwide, Ibanez guitars are built to play fast, sound bold, and stand out on any stage.",
+    "subheader1_2": "Ask ChatGPT",
+    "header2_1": "Check out the ",
+    "header2_2": "Selection"
+  },
+  "GuitarPage": {
+    "Tab1": "Specification",
+    "Tab2": "Who plays it?"
+  }
+}

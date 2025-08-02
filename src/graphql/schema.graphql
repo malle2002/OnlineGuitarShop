@@ -1,0 +1,71 @@
+"""Exposes a URL that specifies the behavior of this scalar."""
+directive @specifiedBy(
+  """The URL that specifies the behavior of this scalar."""
+  url: String!
+) on SCALAR
+
+"""
+Indicates exactly one field must be supplied and this field must not be `null`.
+"""
+directive @oneOf on INPUT_OBJECT
+
+type Brand {
+  id: ID!
+  name: String
+  origin: String
+  image: String
+  categories: [String!]
+  models: [Model!]
+}
+
+type Model {
+  id: ID!
+  name: String
+  type: String
+  image: String
+  description: String
+  price: Int
+  specs: Specs!
+  musicians: [Musician!]
+}
+
+enum ModelSortField {
+  name
+  type
+  price
+}
+
+type Musician {
+  name: String
+  musicianImage: String
+  bands: [String!]
+}
+
+type Query {
+  findAllBrands: [Brand!]!
+  findUniqueBrand(id: ID!): Brand
+  findBrandModels(id: ID!, sortBy: sortBy!): [Model]
+  findUniqueModel(brandId: ID!, modelId: ID!): Model
+  searchModels(brandId: String!, name: String!): [Model!]!
+}
+
+input sortBy {
+  field: ModelSortField!
+  order: SortOrder!
+}
+
+enum SortOrder {
+  ASC
+  DESC
+}
+
+type Specs {
+  bodyWood: String
+  neckWood: String
+  fingerboardWood: String
+  pickups: String
+  tuners: String
+  scaleLength: String
+  bridge: String
+}
+

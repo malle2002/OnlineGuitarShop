@@ -1,0 +1,9 @@
+query FindUniqueBrand($id: ID!) {
+  findUniqueBrand(id: $id) {
+    id
+    name
+    image
+    origin
+    categories
+  }
+}

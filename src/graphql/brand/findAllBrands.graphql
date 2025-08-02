@@ -1,0 +1,30 @@
+query findAllBrands {
+  findAllBrands {
+    id
+    name
+    image
+    origin
+    categories
+    models {
+      id
+      name
+      description
+      type
+      price
+      specs {
+        bodyWood
+        bridge
+        fingerboardWood
+        neckWood
+        pickups
+        scaleLength
+        tuners
+      }
+      musicians {
+        name
+        bands
+        musicianImage
+      }
+    }
+  }
+}
